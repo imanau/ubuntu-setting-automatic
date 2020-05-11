@@ -25,4 +25,4 @@ jobs:
         run: docker-compose up -d
 
       - name: Ansible exec
-        run: docker-compose exec -T ubuntu ansible-playbook.yml playbook.yml
+        run: docker-compose exec -T ubuntu /usr/bin/ansible-playbook/ansible-playbook.yml playbook.yml
