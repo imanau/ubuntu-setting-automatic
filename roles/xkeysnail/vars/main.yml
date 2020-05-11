@@ -1,0 +1,5 @@
+---
+xkeysnail_config_dir: /etc/opt/xkeysnail
+xkeysnail_config_file: ../../../files/config.py
+shellfile: ../../../files/start-xkeysnail.sh
+desktopfile: ../../../files/xkeysnail.desktop

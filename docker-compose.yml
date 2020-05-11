@@ -1,0 +1,8 @@
+version: "3"
+services:
+  ubuntu:
+    build: ./docker
+    tty: true
+    privileged: true
+    volumes:
+      - ./:/vars/ubnutu-ansible
