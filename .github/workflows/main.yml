@@ -22,4 +22,7 @@ jobs:
         run: docker-compose build
 
       - name: Docker-composer up
+        run: docker-compose up
+
+      - name: Ansible exec
         run: docker-compose exec ubuntu ansible-playbook.yml playbook.yml
